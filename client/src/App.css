@@ -1,11 +1,15 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
 }
+
+/* .App {
+  /* text-align: center; */
+/* }
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
-}
+} */ 
 
 .App-header {
   background-color: #222;
@@ -20,6 +24,45 @@
 
 .App-intro {
   font-size: large;
+}
+
+nav { 
+  padding-left: 40px;
+  height: 70px;
+}
+
+nav p {
+  display: inline-block;
+  padding-top: 20px;
+  padding-right: 60px;
+  height: 100%;
+  font-size: 18px;
+  margin: 0;
+  color: #12395F;
+}
+
+nav p a{
+  /* display: inline-block; */
+  font-size: 16px;
+  line-height: 100%;
+  color: #12395F;
+}
+
+hr {
+  margin: 0;
+  border-top: 1px dashed #CEE8E0;
+}
+
+.rocket {
+  float: left;
+  height: 100%;
+  padding-top: 0;
+  padding-right: 0;
+}
+
+.rocket img {
+  /* transform:translateY(50px); */
+  height: 60px;
 }
 
 @keyframes App-logo-spin {
